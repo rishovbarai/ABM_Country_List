@@ -1,6 +1,7 @@
 import { createApp } from 'vue';  // Use createApp in Vue 3
 import App from './App.vue';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { createRouter, createWebHistory } from 'vue-router'; // Vue Router for Vue 3
 import CountryList from './components/CountryList.vue';
 import CountryDetails from './components/CountryDetails.vue';
